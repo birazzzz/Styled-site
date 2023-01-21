@@ -1,5 +1,17 @@
-div{
+.top{
     background-color: #EAE7B1;
+}
+
+.mid{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+.buttom{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
 }
 
 body{
