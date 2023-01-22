@@ -1,4 +1,35 @@
+/* Tags */
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 56px;
+    line-height: 48px;
+    font-family: 'Sacramento', cursive;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p{
+    margin: 0 auto 0 auto;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 16px;
+    margin: 24px;
+}
+
+/* Class */
+
 .top{
+    position: relative;
+    padding-top: 200px;
     background-color: #EAE7B1;
 }
 
@@ -14,17 +45,23 @@
     background-color: aquamarine;
 }
 
-body{
-    margin: 0;
+/* Graphics */
+
+.top-cloud{
+    position: absolute;
+    opacity: .7;
+    left: 980px;
 }
 
-h1{
-    font-size: 32px;
-    font-family: Albert Sans;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
+.buttom-cloud{
+    opacity: .7;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
 
-p{
-    font-family: Albert Sans;
+.mountain{
+    padding: 0px;
+    height= 46%;
+    width: 46%;
 }
