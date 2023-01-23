@@ -5,10 +5,12 @@ body{
     text-align: center;
 }
 
+/* Fonts */
+
 h1{
     margin: 0;
-    font-size: 56px;
-    line-height: 48px;
+    font-size: 64px;
+    line-height: 56px;
     font-family: 'Sacramento', cursive;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -26,6 +28,7 @@ p{
 }
 
 /* Class */
+/* Divs */
 
 .top{
     position: relative;
@@ -62,6 +65,12 @@ p{
 
 .mountain{
     padding: 0px;
-    height= 46%;
+    height: 46%;
     width: 46%;
+}
+
+.profilepic{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
 }
