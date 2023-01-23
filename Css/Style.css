@@ -18,13 +18,41 @@ h1{
 
 h2{
     font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 48px;    
+    color: #3C6255;
 }
 
+h3{
+    margin: 0 auto 0 auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    color: #61876E;
+}
 p{
     margin: 0 auto 0 auto;
     font-family: 'Albert Sans', sans-serif;
     font-size: 16px;
-    margin: 24px;
+    line-height: 24px;
+}
+
+.display{
+    color: #3C6255;
+}
+
+.top-p{
+    color: #3C6255;
+    font-weight: 700;
+}
+
+.skill-row{
+    color: #3C6255;
+}
+
+.footer-link{
+    color: #61876E;
 }
 
 /* Class */
@@ -39,13 +67,11 @@ p{
 .mid{
     height: 200px;
     width: 200px;
-    background-color: antiquewhite;
 }
 
 .buttom{
     height: 200px;
     width: 200px;
-    background-color: aquamarine;
 }
 
 /* Graphics */
@@ -73,4 +99,11 @@ p{
     width: 10%;
     height: 10%;
     border-radius: 50%;
+}
+
+.product-image{
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
 }
