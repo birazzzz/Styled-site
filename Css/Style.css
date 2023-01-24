@@ -19,20 +19,20 @@ h1{
 h2{
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 40px;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 48px;    
     color: #3C6255;
 }
 
 h3{
-    margin: 0 auto 0 auto;
+    margin: 16px auto 16px auto;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 32px;
     line-height: 40px;
     color: #61876E;
 }
 p{
-    margin: 0 auto 0 auto;
+    margin: 8px auto 8px auto;
     font-family: 'Albert Sans', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -44,11 +44,6 @@ p{
 
 .top-p{
     color: #3C6255;
-    font-weight: 700;
-}
-
-.skill-row{
-    color: #3C6255;
 }
 
 .footer-link{
@@ -58,9 +53,14 @@ p{
 /* Class */
 /* Divs */
 
+.profile{
+    width: 40%;
+    margin: auto;
+}
+
 .top{
     position: relative;
-    padding-top: 200px;
+    padding-top: 230px;
     background-color: #EAE7B1;
 }
 
@@ -72,6 +72,16 @@ p{
 .buttom{
     height: 200px;
     width: 200px;
+}
+
+.skill-row{
+    width: 40%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.profile{
+    margin: 40px auto 40px auto;
 }
 
 /* Graphics */
@@ -96,14 +106,20 @@ p{
 }
 
 .profilepic{
-    width: 10%;
-    height: 10%;
+    margin-top: 30px 0 30px 0;
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
 }
 
-.product-image{
-    background: rgba(39,62,84,0.82);
-    overflow: hidden;
-    height: 100%;
-    z-index: 2;
+.Product-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.visual-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
