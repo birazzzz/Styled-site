@@ -48,6 +48,12 @@ p{
 
 .footer-link{
     color: #61876E;
+    margin: 24px 24px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.copywrite{
+    margin: 24px 0 0 0;
 }
 
 /* Class */
@@ -81,7 +87,22 @@ p{
 }
 
 .profile{
-    margin: 40px auto 40px auto;
+    margin: 60px auto 60px auto;
+}
+
+.skills{
+    margin: 60px auto 60px auto;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 60px auto 60px auto;
+}
+
+.bottom-text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EAE7B1;
 }
 
 /* Graphics */
@@ -122,4 +143,40 @@ p{
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+hr{
+    padding: 40px auto 40px auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 12%;
+    height: 1px;
+    border-color:rgb(210, 210, 210)
+}
+
+/* Button */
+
+.btn{
+    padding: 24px;
+    Background-color: #3C6255;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    font-family:  'Albert Sans', sans-serif;
+}
+
+
+.zz{
+    margin-bottom: 24px;
+}
+
+.btn:hover{
+    background: #61876E;
+    opacity: .8;
 }
